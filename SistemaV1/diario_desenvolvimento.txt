@@ -1,0 +1,11 @@
+Dia 20/09:
+
+Iniciei esse diario através do PowerShell, usando Git e comandos Windowns.
+Planejo passar parte relevante do trabalho feito que está em vários
+depositórios no meu PC para cá. Planejo fazer os seguintes passos:
+
+21/09: revisar o código e revisar a arquitetura que eu pensei;
+22/09: adicionar os setups corretos ao código e modifica-lo até a máxima
+corretude antes de incluir a parte do Telegram;
+23/09: pensar em comandos que poderão ser usados pelo TELEGRAM e, desse modo,
+já bolar as próximas metas para os próximos dias;
