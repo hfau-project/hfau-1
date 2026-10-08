@@ -39,7 +39,7 @@ except ImportError:
             )
     import requests
 
-TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
+TOKEN = "8710912164:AAF8Jsar57Y2fg1nGW8fBS0kqJdgqneYdCI"
 if not TOKEN:
     sys.exit("Set the TELEGRAM_BOT_TOKEN environment variable first.")
 
