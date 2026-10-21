@@ -9,11 +9,11 @@ from pathlib import Path #EMBUTIDO PYTHON
 import csv #EMBUTIDO PYTHON
 import math #EMBUTIDO PYTHON
 
-GPIO_VENTOINHA = 5 #MUTÁVEL
-GPIO_LED_MAIN = 6 #MUTÁVEL
-GPIO_LEDS_SECUNDARIAS = [13, 19, 26] #MUTÁVEL
-GPIO_TRIGGER = 23 #MUTÁVEL
-GPIO_ECHO = 24 #MUTÁVEL
+GPIO_VENTOINHA = 5 #Segundo mensagem do joão no dia 21/10/2026
+GPIO_LED_MAIN = 23 #Segundo mensagem do joão no dia 21/10/2026
+GPIO_LEDS_SECUNDARIAS = [25, 24, 16] #Segundo mensagem do joão no dia 21/10/2026
+GPIO_TRIGGER = 22 #Segundo mensagem do joão no dia 21/10/2026
+GPIO_ECHO = 27 #Segundo mensagem do joão no dia 21/10/2026
 
 TIMEOUT_INTERNET = 1
 HORARIO_DESLIGAMENTO = "23:00"  # formato HH:MM

@@ -2,8 +2,10 @@ from Desligar import rodar_desligamento
 from gpiozero import DistanceSensor
 from time import sleep
 
-GPIO_TRIGGER = 23 #MUTÁVEL
-GPIO_ECHO = 24 #MUTÁVEL
+GPIO_TRIGGER = 22 #Segundo mensagem do joão no dia 21/10/2026
+
+GPIO_ECHO = 27 #Segundo mensagem do joão no dia 21/10/2026
+
 
 MINIMO_LEITURAS_VALIDAS_HC = 3 #MUTÁVEL
 DISTANCIA_MAXIMA_METROS = 4

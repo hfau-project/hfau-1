@@ -1,7 +1,8 @@
 from gpiozero import LED
 from time import sleep
 
-GPIO_LEDS_SECUNDARIAS = [13, 19, 26] # mutáveis
+GPIO_LEDS_SECUNDARIAS = [25, 24, 16] #Segundo mensagem do joão no dia 21/10/2026
+
 
 
 def checklist_ledsSecundarias():

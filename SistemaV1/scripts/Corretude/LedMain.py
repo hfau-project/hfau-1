@@ -1,7 +1,7 @@
 from gpiozero import LED
 from time import sleep
 
-GPIO_LED_MAIN = 6 #mutável
+GPIO_LED_MAIN = 23 #Segundo mensagem do joão no dia 21/10/2026
 
 
 def checklist_ledMain():

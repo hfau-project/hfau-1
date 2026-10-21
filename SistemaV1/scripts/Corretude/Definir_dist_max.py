@@ -1,8 +1,8 @@
 from gpiozero import DistanceSensor
 from time import sleep
 
-GPIO_TRIGGER = 23 #mutáveis
-GPIO_ECHO = 24 #mutáveis
+GPIO_TRIGGER = 22 #Segundo mensagem do joão no dia 21/10/2026
+GPIO_ECHO = 27 #Segundo mensagem do joão no dia 21/10/2026
 
 
 def definir_dis_max():

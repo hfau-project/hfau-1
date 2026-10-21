@@ -7,19 +7,15 @@ from Corretude.LedsSecundarias import checklist_ledsSecundarias
 from Corretude.Temperatura import checklist_temperatura
 from Corretude.Definir_dist_max import definir_dis_max
 
-# ! = incompleto;
-
 # $ = falta mensagem pelo telegram
 
 # * = função que será usada na rotina
 
-# % = pinos ainda não conferidos
-
 def rodar_checklist() -> float:
-    checklist_ventoinha()  # $%
-    checklist_HCSR04() # $%
+    checklist_ventoinha()  # $
+    checklist_HCSR04() # $
     checklist_temperatura()  # $*
-    checklist_ledMain()  # $%
-    checklist_ledsSecundarias()  # $%
+    checklist_ledMain()  # $
+    checklist_ledsSecundarias()  # $
     checklist_internet()  # $
-    return definir_dis_max()  # $%
+    return definir_dis_max()  # $

@@ -1,8 +1,8 @@
-GPIO_VENTOINHA = 5
-GPIO_LED_MAIN = 6
-GPIO_LEDS_SECUNDARIAS = [13, 19, 26]
-GPIO_TRIGGER = 23
-GPIO_ECHO = 24
+GPIO_VENTOINHA = 5 #Segundo mensagem do joão no dia 21/10/2026
+GPIO_LED_MAIN = 23 #Segundo mensagem do joão no dia 21/10/2026
+GPIO_LEDS_SECUNDARIAS = [25, 24, 16] #Segundo mensagem do joão no dia 21/10/2026
+GPIO_TRIGGER = 22 #Segundo mensagem do joão no dia 21/10/2026
+GPIO_ECHO = 27 #Segundo mensagem do joão no dia 21/10/2026
 
 def rodar_desligamento(ventoinha=None, sensor_hc=None, led_main=None, leds_secundarias=None):
     saidas = [ventoinha, led_main]
