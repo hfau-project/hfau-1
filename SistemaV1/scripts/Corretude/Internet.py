@@ -2,7 +2,7 @@ from gpiozero import LED
 from time import sleep
 import socket
 
-GPIO_LED_AMARELO = 6 # mudável
+GPIO_LED_AMARELO = 24 # mudável
 INTERVALO_TESTE = 5 # mudável
 
 def checklist_internet():

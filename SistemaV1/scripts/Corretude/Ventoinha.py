@@ -1,4 +1,4 @@
-from scripts.Desligar import rodar_desligamento
+from Desligar import rodar_desligamento
 from gpiozero import OutputDevice
 from time import sleep
 import requests
